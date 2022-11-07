@@ -8,7 +8,7 @@ npm install macos-notification-state
 ```
 const { getNotificationState, getSessionState, getDoNotDisturb } = require('macos-notification-state`)
 
-// This will brint a boolean (true if enabled, false if not)
+// This will print a boolean (true if enabled, false if not)
 console.log(getDoNotDisturb())
 
 // This will print a string indiciating the current state, being one of the following:
