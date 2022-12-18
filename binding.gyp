@@ -2,10 +2,11 @@
   "targets": [
     {
       "target_name": "notificationstate",
-      "sources": [ "lib/notificationstate.cc" ],
+      "sources": [],
       "conditions": [
         ['OS=="mac"', {
           "sources": [
+            "lib/notificationstate.cc",
             "lib/notificationstate-query.cc", 
             "lib/do-not-disturb.mm", 
             "lib/dnd/old-macos-dnd.mm", 
