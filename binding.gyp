@@ -2,14 +2,15 @@
   "targets": [
     {
       "target_name": "notificationstate",
-      "sources": [ "lib/notificationstate.cc" ],
+      "sources": [],
       "conditions": [
         ['OS=="mac"', {
           "sources": [
-            "lib/notificationstate-query.cc", 
-            "lib/do-not-disturb.mm", 
-            "lib/dnd/old-macos-dnd.mm", 
-            "lib/dnd/bigsur-macos-dnd.mm", 
+            "lib/notificationstate.cc",
+            "lib/notificationstate-query.cc",
+            "lib/do-not-disturb.mm",
+            "lib/dnd/old-macos-dnd.mm",
+            "lib/dnd/bigsur-macos-dnd.mm",
             "lib/dnd/monterey-macos-dnd.mm"
           ],
           "xcode_settings": {
