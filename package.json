@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "bindings": "^1.5.0",
-    "node-gyp": "^9.3.0",
+    "node-gyp": "^10.1.0",
     "node-addon-api": "3.0.0"
   },
   "author": {
